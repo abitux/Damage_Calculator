@@ -1,0 +1,84 @@
+body {
+	font-family: Meiryo, Arial, sans-serif;
+ /* added a font suitable for Japanese language */
+	text-align: center;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+h1, label, #result {
+ /* increased font-size for all these elements */
+	font-size: 1.2em;
+}
+
+form {
+	display: inline-block;
+	text-align: left;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px #ccc;
+}
+
+label {
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+input[type="text"] {
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+ /* added border property */
+	width: 200px;
+	margin-bottom: 20px;
+	background-color: #f9f9f9;
+  /* new background color */;
+}
+
+button[type="button"] {
+	padding: 10px 20px;
+	border-radius: 5px;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	font-weight: bold;
+	margin-right: 20px;
+}
+
+button[type="button"]:hover {
+	background-color: #3e8e41;
+}
+
+#clearListButton {
+	background-color: #ff5733;
+ /* new color */;
+}
+
+#clearListButton:hover {
+	background-color: #e64a19;
+ /* new hover color */;
+}
+
+#damageList {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	width: 500px;
+ /* added width constraint */
+	display: inline-block;
+ /* changed display type */;
+}
+
+#damageList li {
+	background-color: #f9f9f9;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px #ccc;
+}
+
+#result {
+	font-weight: bold;
+	margin-left: 10px;
+}
